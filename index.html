@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earn Money</title>
+    <!-- CSS ICON CDN (boxicon) -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts Oswald -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap">
+    
+    <!-- Self CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <header>
+            <img src="media/branding-open.png" class="brand-img" alt="Aptitude Migration">
+            <i class='bx bx-chevron-left' id="toggle"></i>
+        </header>
+        <hr>
+        <ul class="sideMenu">
+            <li class="list-Item no-sub">
+                <i class='bx bxs-dashboard'></i>
+                <a href="dashboard.html">Dashboard</a>
+            </li>
+            <h4>Clients</h4>
+            <hr>
+
+            <li class="list-Item no-sub">
+                <i class='bx bx-chat' ></i>
+                <a href="index.html">Chat Boat</a>
+            </li>
+
+            <li class="list-Item no-sub">
+                <i class='bx bx-palette' ></i>
+                <a href="#">Counselling</a>
+            </li>
+
+            <li class="have-sub">
+                <div class="list-Item no-sub">
+                    <i class='bx bx-user' ></i>
+                    <a href="#">Manage Clients</a>
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+
+                <ul class="sub-menu">
+                    <li class="list-Item no-sub">
+                        <i class='bx bxs-user-plus'></i>
+                        <a href="#">Add Clients</a>
+                    </li>
+
+                    <li class="list-Item no-sub">
+                        <i class='bx bxs-user-detail' ></i>
+                        <a href="#">My Clients</a>
+                    </li>
+
+                    <li class="list-Item no-sub">
+                        <i class='bx bx-user-voice' ></i>
+                        <a href="#">Assign Clients</a>
+                    </li>
+
+                    <li class="list-Item no-sub">
+                        <i class='bx bx-caret-up-circle'></i>
+                        <a href="#">Follow-ups</a>
+                    </li>
+
+                    <li class="list-Item no-sub">
+                        <i class='bx bx-chevron-up-square'></i>
+                        <a href="#">My Follow-ups</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="have-sub">
+                <div class="list-Item no-sub">
+                    <i class='bx bx-paperclip' ></i>
+                    <a href="#">Manage Applications</a>
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+
+                <ul class="sub-menu">
+                    <li class="list-Item no-sub">
+                        <i class='bx bxs-file-plus'></i>
+                        <a href="#">Add Appllication</a>
+                    </li>
+
+                    <li class="list-Item no-sub">
+                        <i class='bx bx-paper-plane' ></i>
+                        <a href="#">My Applications</a>
+                    </li>
+
+                    <li class="list-Item no-sub">
+                        <i class='bx bxs-paper-plane' ></i>
+                        <a href="#">Assign Applications</a>
+                    </li>
+                </ul>
+            </li>
+            
+            <h4>Website</h4>
+            <hr>
+
+            <li class="have-sub">
+                <div class="list-Item no-sub">
+                    <i class='bx bx-news'></i>
+                    <a href="#">Manage Posts</a>
+                    <i class='bx bx-chevron-right'></i>
+                </div>
+
+                <ul class="sub-menu">
+                    <li class="list-Item no-sub">
+                        <i class='bx bx-plus-circle'></i>
+                        <a href="#">Add Posts</a>
+                    </li>
+
+                    <li class="list-Item no-sub">
+                        <i class='bx bx-layer-plus'></i>
+                        <a href="#">All Posts</a>
+                    </li>
+
+                    <li class="list-Item no-sub">
+                        <i class='bx bx-category'></i>
+                        <a href="#">Category</a>
+                    </li>
+                </ul>
+            </li>
+
+            <h4>Others</h4>
+            <hr>
+
+            <li class="list-Item no-sub">
+                <i class='bx bxs-user-badge'></i>
+                <a href="#">Manage Users</a>
+            </li>
+
+            <li class="list-Item no-sub">
+                <i class='bx bxs-inbox' ></i>
+                <a href="#">Inbox</a>
+            </li>
+
+            <li class="list-Item no-sub">
+                <i class='bx bx-calendar-event' ></i>
+                <a href="#">Events</a>
+            </li>
+
+            <li class="list-Item no-sub">
+                <i class='bx bxs-plane-take-off'></i>
+                <a href="#">Leave</a>
+            </li>
+
+            <li class="list-Item no-sub">
+                <i class='bx bx-info-circle'></i>
+                <a href="#">Help</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <!-- Home Content -->
+    <section class="home-body">
+        <nav class="top-nav">
+            <div class="menu-itemBox">
+                <li>
+                    <a href="#"><i class='bx bx-bell'></i></a>
+                </li>
+
+                <li>
+                    <a href="#"><i class='bx bx-news'></i></a>
+                </li>
+
+                <li>
+                    <a href="#"><i class='bx bx-chat'></i></a>
+                </li>
+
+                <li>
+                    <a href="#"><i class='bx bx-user-circle' ></i></i></a>
+                </li>
+            </div>
+        </nav>
+
+        <div class="home-content">
+            <div class="card-wraper">
+                <div class="card">
+                    <div class="card-hr">
+                        <div class="card-content">
+                            <span>38</span>
+                            <span>Clients</span>
+                        </div>
+                        <i class='bx bx-user-plus' ></i>
+                    </div>
+                    <hr>
+                    <div class="card-br">
+                        <b>Total</b>
+                        <span>200</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
